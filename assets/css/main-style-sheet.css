@@ -8,8 +8,11 @@ body{
 .fa-sign-out{
     font-size: 27px !important;
 }
-.mainSlide{
+/* .mainSlide{
     padding: 60px;
+} */
+.catrow{
+    margin: 30px auto;
 }
 .catalog{
     text-align: center;
@@ -24,7 +27,7 @@ body{
 footer{
     background: black !important;
     color: silver !important;
-    height: 70px;
+    /* height: 70px; */
 }
 .footer{
     padding: 20px;
