@@ -1,44 +1,200 @@
-.logoimg{
-    width: 250px ; 
+.logoimg {
+    width: 250px;
     height: 100px;
 }
-body{
+
+body {
     background: #e2e3e5 !important;
 }
-.fa-facebook-square,.fa-twitter-square,.fa-google-plus-square,.fa-youtube{
-    margin: 0 0 0 20px ;
+
+.fa-facebook-square,
+.fa-twitter-square,
+.fa-google-plus-square,
+.fa-youtube {
+    margin: 0 0 0 20px;
     font-size: 27px !important;
 }
-.fa-sign-out{
-    font-size: 27px !important;
+
+.dropdown-menu {
+    border-top: 4px solid red !important;
+    font-size: 14px !important;
 }
-/* .mainSlide{
-    padding: 60px;
+
+
+/* .dropdown-item :focus {
+    background-color: #f10c0c !important;
 } */
-.catrow{
+
+.fa-sign-out {
+    font-size: 27px !important;
+}
+
+.inP {
+    display: flex !important;
+}
+
+.sidenav {
+    height: 132vh;
+    width: 170px;
+    z-index: 1;
+    top: 133px;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    float: left;
+}
+
+.sidenav a {
+    padding: 6px 8px 6px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    color: #818181;
+    display: block;
+}
+
+.sidenav a:hover {
+    color: #f1f1f1;
+}
+
+.mainSlide {
+    padding: 60px;
+}
+
+.mainSlide2 {
+    margin-left: 160px;
+    /* Same as the width of the sidenav */
+    font-size: 28px;
+    /* Increased text to enable scrolling */
+    padding: 0px 10px;
+}
+
+.catrow {
     margin: 30px auto;
 }
-.catalog{
+
+.catalog {
     text-align: center;
 }
-.card{
+
+.card {
     background-color: #c2c3c7 !important;
 }
-.btns{
+
+.inviGallary {
+    margin: auto;
+    width: 80%;
+    height: auto;
+}
+
+fieldset.scheduler-border {
+    border-top: 1px groove #ddd !important;
+    padding: 0 1.4em 1.4em 1.4em !important;
+    margin: 0 0 1.5em 0 !important;
+    -webkit-box-shadow: 0px 0px 0px 0px #000;
+    box-shadow: 0px 0px 0px 0px #000;
+}
+
+legend.scheduler-border {
+    color: #ea2e2e;
+    font-size: 1.2em !important;
+    font-weight: bold !important;
+    text-align: center!important;
+    border: none;
+    width: 15%;
+}
+
+.btns {
     color: #fff !important;
     border-color: rgb(243, 146, 146);
 }
-footer{
+
+.col p {
+    font-size: 14px;
+}
+
+.contactus {
+    padding-bottom: 35px;
+}
+
+.contactus p {
+    font-size: 15px;
+    display: inline-block;
+    padding: 10px;
+    color: #818181;
+}
+
+.contact i {
+    color: #f12e2e !important;
+    font-size: 25px;
+}
+
+.hour h3,
+.touch h3 {
+    color: #f12e2e;
+}
+
+.hour i {
+    color: #818181 !important;
+}
+
+
+/* new */
+
+.button {
+    border-radius: 5px;
+    position: relative;
+    background-color: #ea2e2e;
+    border: none;
+    font-size: 20px;
+    color: #FFFFFF;
+    padding: 10px;
+    /* width: 200px; */
+    text-align: center;
+    -webkit-transition-duration: 0.4s;
+    /* Safari */
+    transition-duration: 0.4s;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+.button:after {
+    content: "";
+    background: #90EE90;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s
+}
+
+.button:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s
+}
+
+
+/* new */
+
+footer {
     background: black !important;
     color: silver !important;
     /* height: 70px; */
 }
-.footer{
+
+.footer {
     padding: 20px;
 }
-.card{
+
+.card {
     text-align: center !important;
 }
-.inviCard{
+
+.inviCard {
     padding: 20px;
 }
